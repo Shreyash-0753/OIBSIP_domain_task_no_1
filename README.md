@@ -12,13 +12,10 @@ Loaded the Iris dataset using sklearn.datasets and converted it into a DataFrame
 2. Exploratory Data Analysis (EDA)
 Analyzed the structure and distribution of data using descriptive statistics and visualizations such as:
 
- -Histograms
-
- -Pairplots
-
- -Correlation heatmaps
-
- -Box plots
+ * Histograms
+ * Pairplots
+ * Correlation heatmaps
+ * Box plots
 
 3. Data Preprocessing
 
