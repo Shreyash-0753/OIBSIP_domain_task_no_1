@@ -12,46 +12,46 @@ Loaded the Iris dataset using sklearn.datasets and converted it into a DataFrame
 2. Exploratory Data Analysis (EDA)
 Analyzed the structure and distribution of data using descriptive statistics and visualizations such as:
 
--Histograms
+ -Histograms
 
--Pairplots
+ -Pairplots
 
--Correlation heatmaps
+ -Correlation heatmaps
 
--Box plots
+ -Box plots
 
 3. Data Preprocessing
 
--Checked for missing values
+ -Checked for missing values
 
--Encoded the target labels using LabelEncoder
+ -Encoded the target labels using LabelEncoder
 
--Split the data into training and testing sets
+ -Split the data into training and testing sets
 
 4. Model Training
 
 Trained multiple classification models:
--Logistic Regression
+ -Logistic Regression
 
--Decision Tree Classifier
+ -Decision Tree Classifier
 
--Support Vector Machine (SVM)
+ -Support Vector Machine (SVM)
 
--Random Forest Classifier
+ -Random Forest Classifier
 
--GuassianNB
+ -GuassianNB
 
--Xgboost
+ -Xgboost
 
 5. Model Evaluation
 
 Evaluated each model using:
 
--Accuracy Score
+ -Accuracy Score
 
--Confusion Matrix
+ -Confusion Matrix
 
--Classification Report
+ -Classification Report
 
 6. Visualization
 
@@ -59,33 +59,34 @@ Visualized classification results, confusion matrix, and decision boundaries (if
 
 ## Tools and Libraries Used :
 Programming Language:
--Python
 
--Jupyter Notebook
+ -Python
+
+ -Jupyter Notebook
 Libraries:
--pandas, numpy – data manipulation
+ -pandas, numpy – data manipulation
 
--matplotlib, seaborn – data visualization
+ -matplotlib, seaborn – data visualization
 
--sklearn – machine learning (model training, evaluation, preprocessing)
+ -sklearn – machine learning (model training, evaluation, preprocessing)
 
 ## Dataset Description :
 Source: Kaggle
 
 Features:
--Sepal Length (cm)
+ -Sepal Length (cm)
 
--Sepal Width (cm)
+ -Sepal Width (cm)
 
--Petal Length (cm)
+ -Petal Length (cm)
 
--Petal Width (cm)
+ -Petal Width (cm)
 Target Classes:
--Iris Setosa
+ -Iris Setosa
 
--Iris Versicolor
+ -Iris Versicolor
 
--Iris Virginica Total Samples: 150
+ -Iris Virginica Total Samples: 150
 
 ## Outcomes :
 1.Successfully built a machine learning model to classify Iris flowers with over 100% accuracy.
