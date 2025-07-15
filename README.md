@@ -10,80 +10,67 @@ The primary goal of this project is to build a machine learning model that can c
 Loaded the Iris dataset using sklearn.datasets and converted it into a DataFrame for easier manipulation.
 
 2. Exploratory Data Analysis (EDA)
+
 Analyzed the structure and distribution of data using descriptive statistics and visualizations such as:
 
- * Histograms
- * Pairplots
- * Correlation heatmaps
- * Box plots
+   * Histograms
+   * Pairplots
+   * Correlation heatmaps
+   * Box plots
 
 3. Data Preprocessing
 
- -Checked for missing values
-
- -Encoded the target labels using LabelEncoder
-
- -Split the data into training and testing sets
+   * Checked for missing values
+   * Encoded the target labels using LabelEncoder
+   * Split the data into training and testing sets
 
 4. Model Training
 
 Trained multiple classification models:
- -Logistic Regression
-
- -Decision Tree Classifier
-
- -Support Vector Machine (SVM)
-
- -Random Forest Classifier
-
- -GuassianNB
-
- -Xgboost
+   * Logistic Regression
+   * Decision Tree Classifier
+   * Support Vector Machine (SVM)
+   * Random Forest Classifier
+   * GuassianNB
+   * Xgboost
 
 5. Model Evaluation
 
 Evaluated each model using:
 
- -Accuracy Score
-
- -Confusion Matrix
-
- -Classification Report
+   * Accuracy Score
+   * Confusion Matrix
+   * Classification Report
 
 6. Visualization
 
 Visualized classification results, confusion matrix, and decision boundaries (if applicable).
 
 ## Tools and Libraries Used :
-Programming Language:
-
- -Python
-
- -Jupyter Notebook
+   * Programming Language : Python
+   * Jupyter Notebook
 Libraries:
- -pandas, numpy – data manipulation
-
- -matplotlib, seaborn – data visualization
-
- -sklearn – machine learning (model training, evaluation, preprocessing)
+   * pandas, numpy – data manipulation
+   * matplotlib, seaborn – data visualization
+   * sklearn – machine learning (model training, evaluation, preprocessing)
 
 ## Dataset Description :
+
 Source: Kaggle
 
 Features:
- -Sepal Length (cm)
+ 
+   * Sepal Length (cm)
+   * Sepal Width (cm)
+   * Petal Length (cm)
+   * Petal Width (cm)
 
- -Sepal Width (cm)
-
- -Petal Length (cm)
-
- -Petal Width (cm)
 Target Classes:
- -Iris Setosa
 
- -Iris Versicolor
-
- -Iris Virginica Total Samples: 150
+   * Iris Setosa
+   * Iris Versicolor
+   * Iris Virginica
+Total Samples: 150
 
 ## Outcomes :
 1.Successfully built a machine learning model to classify Iris flowers with over 100% accuracy.
